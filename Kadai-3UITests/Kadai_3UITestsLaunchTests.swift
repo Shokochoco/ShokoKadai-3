@@ -7,7 +7,7 @@
 
 import XCTest
 
-class Kadai_3UITestsLaunchTests: XCTestCase {
+class Kadai3UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
