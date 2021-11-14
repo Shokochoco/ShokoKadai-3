@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         } else {
             signedNumber1 = num1
         }
-        signedNumber1Label.text = String(signedNumber1)
 
         let signedNumber2: Int
         if switch2.isOn {
@@ -28,8 +27,9 @@ class ViewController: UIViewController {
         } else {
             signedNumber2 = num2
         }
-        signedNumber2Label.text = String(signedNumber2)
 
+        signedNumber1Label.text = String(signedNumber1)
+        signedNumber2Label.text = String(signedNumber2)
         resultLabel.text = String(signedNumber1 + signedNumber2)
     }
 }
