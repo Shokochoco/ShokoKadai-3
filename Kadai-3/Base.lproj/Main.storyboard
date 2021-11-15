@@ -106,13 +106,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="number1TextField" destination="9i8-3v-hby" id="sXg-eB-2fz"/>
+                        <outlet property="number2TextField" destination="JZ0-Nj-c8g" id="RB7-cX-R7U"/>
+                        <outlet property="resultLabel" destination="6Sy-7B-hKo" id="vOb-94-niJ"/>
+                        <outlet property="signedNumber1Label" destination="NEb-jy-POz" id="S1O-gH-7hI"/>
+                        <outlet property="signedNumber2Label" destination="aP8-o6-GP0" id="wCg-vb-fD3"/>
                         <outlet property="switch1" destination="6dr-oS-chC" id="Uz9-gQ-p5o"/>
                         <outlet property="switch2" destination="qPM-f3-DdL" id="o1r-cd-6eX"/>
-                        <outlet property="textField1" destination="9i8-3v-hby" id="sXg-eB-2fz"/>
-                        <outlet property="textField2" destination="JZ0-Nj-c8g" id="RB7-cX-R7U"/>
-                        <outlet property="textLabel1" destination="NEb-jy-POz" id="S1O-gH-7hI"/>
-                        <outlet property="textLabel2" destination="aP8-o6-GP0" id="wCg-vb-fD3"/>
-                        <outlet property="textLabel3" destination="6Sy-7B-hKo" id="vOb-94-niJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
